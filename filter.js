@@ -2,8 +2,7 @@
 //      return value >= 10;
 //   }
   
-  const filtered = [12, 5, 8, 130, 44].filter(element => {element >=10}
-  );
+  const filtered = [12, 5, 8, 130, 44].filter(element =>  element >=10);
   console.log(filtered);
 
   //Ex-2
@@ -30,3 +29,4 @@ function isPositive(value) {
    
   var filtered3 = [11, 98, 31, 23, 944].filter(isEven);
   console.log(filtered);
+
